@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    Bonjour {{ name }} !
+    <h1>Hello, {{ name }} !</h1>
   </div>
 </template>
 
@@ -11,7 +11,7 @@ export default Vue.extend({
   name: 'app',
   data () {
     return {
-      name: 'Simon'
+      name: 'Vue.js'
     }
   }
 });
